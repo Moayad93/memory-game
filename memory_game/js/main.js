@@ -54,7 +54,6 @@ function createBoard() {
         var cardElement = document.createElement("img");
         cardElement.setAttribute("src", "images/back.png");
         cardElement.setAttribute("data-id", i);
-        console.log(cardElement); //////////////////////
         cardElement.addEventListener("click", flipCard);
         document.getElementById("game-board").appendChild(cardElement);
     }
