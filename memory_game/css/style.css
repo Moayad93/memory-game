@@ -1,6 +1,5 @@
 h1 {
     font-family: 'Raleway', sans-serif;
-    /* color: #0d2c40; */
     letter-spacing: 1px;
     font-weight: 400;
     font-size: 45px;
@@ -52,7 +51,7 @@ nav {
     padding: 20px 0;
 }
 
-nav > a {
+nav>a {
     margin: 0 20px;
     color: #ffffff;
 }
@@ -76,7 +75,7 @@ footer {
     font-weight: 500;
 }
 
-footer > p {
+footer>p {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -100,4 +99,22 @@ footer > p {
 .name {
     color: #f15b31;
     font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+    background-color: #f15b31;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+button:active,
+button:hover {
+    background-color: #00a6b3;
 }
